@@ -1,5 +1,9 @@
 #lang sicp
 
+; ex 1.28
+; the Miller Rabin primality test
+; expmod returns 0 when base is a witness for the compositeness of n
+
 (define (square x) (* x x))
 
 (define (expmod base exp m)

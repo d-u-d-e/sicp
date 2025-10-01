@@ -1,5 +1,9 @@
 #lang sicp
 
+; ex 1.16
+; an iterative exponential function that computes b^n in O(log(n)) time
+; and O(1) space
+
 (define (exp b n)
   (define (iter-exp a n b)
     (define (even n)
