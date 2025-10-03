@@ -16,7 +16,7 @@
 (define (sum-integers a b)
   (sum identity a inc b))
 
-; 1 + 2 + ... + 6
+; 3 + 4 + 5 + 6
 (sum-integers 3 6)
 
 ; compute wallis product
