@@ -1,6 +1,4 @@
 #lang sicp
-;(require compatibility/mlist)
-
 (define apply-in-underlying-scheme apply)
 
 ;*************** syntax of expressions ***************
